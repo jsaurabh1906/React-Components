@@ -1,10 +1,14 @@
 import "./App.css";
 import AccordionApp from "./components/Accordion/AccordionApp";
+import ModalApp from "./components/Modal/ModalApp";
 
 function App() {
   return (
     <>
-      <AccordionApp />
+      {/* ========================== Accordion ==========================*/}
+      {/* <AccordionApp /> */}
+      {/* ========================== Modal ==========================*/}
+      <ModalApp />
     </>
   );
 }
