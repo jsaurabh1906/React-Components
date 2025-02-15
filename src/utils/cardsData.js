@@ -22,3 +22,30 @@ export const blogPost = {
   link: "#",
   image: "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9",
 };
+
+export const pricingPlans = [
+  {
+    name: "Free",
+    price: "$0",
+    features: ["Basic Features", "Community Support", "Limited Access"],
+    buttonText: "Get Started",
+    gradient: "bg-gradient-to-r from-pink-400 to-pink-500",
+    border: "border-pink-400",
+  },
+  {
+    name: "Base",
+    price: "$19",
+    features: ["All Free Features", "Priority Support", "Unlimited Access"],
+    buttonText: "Choose Base",
+    gradient: "bg-gradient-to-r from-pink-600 to-pink-700",
+    border: "border-pink-500",
+  },
+  {
+    name: "Pro",
+    price: "$49",
+    features: ["All Base Features", "Advanced Analytics", "24/7 Support"],
+    buttonText: "Go Pro",
+    gradient: "bg-gradient-to-r from-pink-800 to-pink-900",
+    border: "border-pink-600",
+  },
+];

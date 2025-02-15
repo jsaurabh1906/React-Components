@@ -5,22 +5,28 @@ import CardWithImage from "./CardWithImage";
 import HorizontalCard from "./HorizontalCard";
 import ProfileCard from "./ProfileCard";
 import BlogCard from "./BlogCard ";
+import RecipeReviewCard from "./RecipeReviewCard";
+import PricingCards from "./PricingCards";
 
 const CardsApp = () => {
   return (
     <>
       {/* Ex1: Basic Card : Card with no image */}
-      <BasicCard />
+      {/* <BasicCard /> */}
       {/* Ex2: Card with Image */}
-      <CardWithImage />
+      {/* <CardWithImage /> */}
       {/* Ex3: Horizontal Card  */}
-      <HorizontalCard />
+      {/* <HorizontalCard /> */}
       {/* Ex4: A Product Card */}
-      <ProductCard />
+      {/* <ProductCard /> */}
       {/* Ex5: Profile Card  */}
-      <ProfileCard />
+      {/* <ProfileCard /> */}
       {/* Ex6: Blog Card */}
-      <BlogCard />
+      {/* <BlogCard /> */}
+      {/* Ex7: Expandable card */}
+      {/* <RecipeReviewCard /> */}
+      {/* Ex8: Pricing Cards */}
+      <PricingCards />
     </>
   );
 };
