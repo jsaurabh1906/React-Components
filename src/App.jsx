@@ -1,5 +1,6 @@
 import "./App.css";
 import AccordionApp from "./components/Accordion/AccordionApp";
+import ButtonsApp from "./components/Buttons/ButtonsApp";
 import CardsApp from "./components/Card/CardsApp";
 import ModalApp from "./components/Modal/ModalApp";
 import TabsApp from "./components/Tabs/TabsApp";
@@ -14,7 +15,9 @@ function App() {
       {/* ========================== Tabs ==========================*/}
       {/* <TabsApp /> */}
       {/* ========================== Cards ==========================*/}
-      <CardsApp />
+      {/* <CardsApp /> */}
+      {/* ========================== Buttons ==========================*/}
+      <ButtonsApp />
     </>
   );
 }
