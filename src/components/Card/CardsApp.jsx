@@ -12,19 +12,19 @@ const CardsApp = () => {
   return (
     <>
       {/* Ex1: Basic Card : Card with no image */}
-      {/* <BasicCard /> */}
+      <BasicCard />
       {/* Ex2: Card with Image */}
-      {/* <CardWithImage /> */}
+      <CardWithImage />
       {/* Ex3: Horizontal Card  */}
-      {/* <HorizontalCard /> */}
+      <HorizontalCard />
       {/* Ex4: A Product Card */}
-      {/* <ProductCard /> */}
+      <ProductCard />
       {/* Ex5: Profile Card  */}
-      {/* <ProfileCard /> */}
+      <ProfileCard />
       {/* Ex6: Blog Card */}
-      {/* <BlogCard /> */}
+      <BlogCard />
       {/* Ex7: Expandable card */}
-      {/* <RecipeReviewCard /> */}
+      <RecipeReviewCard />
       {/* Ex8: Pricing Cards */}
       <PricingCards />
     </>
