@@ -7,6 +7,7 @@ import ButtonsApp from "../components/Buttons/ButtonsApp";
 import CardsApp from "../components/Card/CardsApp";
 import TabsApp from "../components/Tabs/TabsApp";
 import ModalApp from "../components/Modal/ModalApp";
+import BackgroundApp from "../components/Backgrounds/BackgroundApp";
 
 const router = createBrowserRouter([
   {
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
       { path: "components/forms", element: <h1>Work in Progress</h1> },
       { path: "components/modals", element: <ModalApp /> },
       { path: "components/tabs", element: <TabsApp /> },
-
+      { path: "components/backgrounds", element: <BackgroundApp /> },
       { path: "*", element: <h1>404 Page Not Found</h1> },
     ],
   },

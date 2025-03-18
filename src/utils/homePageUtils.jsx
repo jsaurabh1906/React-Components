@@ -25,6 +25,11 @@ export const componentsList = [
     desc: "Tabs for better UI/UX.",
   },
   {
+    name: "Backgrounds",
+    path: "backgrounds",
+    desc: "Backgrounds for better UI/UX.",
+  },
+  {
     name: "See More",
     path: "",
     desc: "",
